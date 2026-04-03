@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新規登録 | Growbit Garden</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-page">
+
+  <div class="auth-container signup-layout">
+
+    <!-- 左：安心感を出す説明エリア -->
+    <div class="auth-visual signup-visual">
+      <div class="visual-circle signup-circle">
+        <img src="images/hero-boy.png" alt="Growbit Gardenのイラスト">
+      </div>
+
+      <h2>はじめてでも安心</h2>
+      <p class="signup-lead">
+        Growbit Gardenは、毎日の学びや習慣を
+        やさしく記録して続けられるサービスです。
+      </p>
+
+      <div class="signup-points">
+        <div class="signup-point">毎日の記録をかんたんに残せる</div>
+        <div class="signup-point">成長が見えて続けやすい</div>
+        <div class="signup-point">あとからいつでも見返せる</div>
+      </div>
+    </div>
+
+    <!-- 右：フォーム -->
+    <div class="auth-form signup-form">
+      <h1>新規登録</h1>
+      <p class="signup-description">
+        まずはアカウントを作成して、
+        あなたの学びの記録をはじめましょう。
+      </p>
+
+      <form>
+        <label for="name">ユーザー名</label>
+        <input id="name" type="text" placeholder="例：はなこ">
+
+        <label for="email">メールアドレス</label>
+        <input id="email" type="email" placeholder="example@mail.com">
+
+        <label for="password">パスワード</label>
+        <input id="password" type="password" placeholder="8文字以上で入力">
+
+        <label for="password-confirm">パスワード（確認）</label>
+        <input id="password-confirm" type="password" placeholder="もう一度入力">
+
+        <label class="consent-row">
+          <input type="checkbox">
+          <span>利用規約とプライバシーポリシーに同意します</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary wide signup-submit">
+          無料ではじめる
+        </button>
+      </form>
+
+      <p class="signup-note">
+        登録後すぐに使い始められます。難しい設定はありません。
+      </p>
+
+      <p class="auth-link">
+        すでにアカウントをお持ちの方
+      </p>
+      <a href="login.html" class="register-btn login-text-link">ログインはこちら</a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

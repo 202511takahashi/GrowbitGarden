@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | Growbit Garden</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="faq-page contact-page">
+  <header class="site-header faq-header">
+    <div class="logo">
+      <img src="images/logo-chick.png" class="logo-icon" alt="Growbit Gardenのロゴ">
+      <span class="logo-text">Growbit Garden</span>
+      <img src="images/logo-chick (2).png" class="logo-icon" alt="">
+    </div>
+
+    <nav class="header-buttons">
+      <a href="index.html" class="btn btn-outline">トップへ戻る</a>
+    </nav>
+  </header>
+
+  <main class="faq-main contact-main">
+    <section class="section-card faq-hero contact-hero">
+      <div class="faq-hero-copy">
+        <p class="faq-label">Contact</p>
+        <h1>お問い合わせ</h1>
+        <p class="faq-lead">
+          ご不明な点や気になることがありましたら、お気軽にお問い合わせください。
+          はじめての方にもわかりやすいよう、ていねいにご案内します。
+        </p>
+      </div>
+
+      <div class="faq-hero-visual contact-hero-visual">
+        <div class="faq-hero-circle contact-hero-circle">
+          <img src="images/recommend-left.png" alt="お問い合わせ案内のイラスト">
+        </div>
+        <div class="faq-mini-card contact-mini-card">
+          <img src="images/feature-record.png" alt="記録できるイメージ">
+          <p class="faq-mini-text">
+            小さな疑問でも大丈夫です。安心してご相談ください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-grid">
+      <section class="section-card contact-form-card">
+        <h2>お問い合わせフォーム</h2>
+        <p class="contact-form-lead">
+          内容を確認し、順番にご案内します。わかる範囲でご記入いただければ大丈夫です。
+        </p>
+
+        <form class="contact-form">
+          <label for="contact-name">お名前</label>
+          <input id="contact-name" type="text" placeholder="例：はなこ">
+
+          <label for="contact-email">メールアドレス</label>
+          <input id="contact-email" type="email" placeholder="example@mail.com">
+
+          <label for="contact-type">お問い合わせ種別</label>
+          <select id="contact-type">
+            <option>サービスについて</option>
+            <option>ログインについて</option>
+            <option>ご要望</option>
+            <option>その他</option>
+          </select>
+
+          <label for="contact-message">お問い合わせ内容</label>
+          <textarea id="contact-message" placeholder="ご不明点や気になることをご記入ください"></textarea>
+
+          <button type="submit" class="btn btn-primary wide contact-submit">送信する</button>
+        </form>
+      </section>
+
+      <aside class="contact-side">
+        <section class="section-card contact-note-card">
+          <h2>ご案内</h2>
+          <ul class="contact-note-list">
+            <li>返信まで少しお時間をいただく場合があります。</li>
+            <li>お問い合わせ内容を確認のうえ、順次対応いたします。</li>
+            <li>はじめての方にも安心してご利用いただけるよう、できるだけわかりやすくご案内します。</li>
+          </ul>
+        </section>
+
+        <section class="section-card contact-faq-card">
+          <div class="contact-faq-visual">
+            <img src="images/recommend-right.png" alt="植物のイラスト">
+          </div>
+          <h2>FAQもご覧ください</h2>
+          <p>よくあるご質問をまとめています。気になる点があるときは、こちらもあわせてご覧ください。</p>
+          <a href="faq.html" class="btn btn-outline">FAQページへ</a>
+        </section>
+      </aside>
+    </section>
+  </main>
+</body>
+
+</html>
